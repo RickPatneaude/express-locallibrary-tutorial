@@ -14,7 +14,7 @@ var app = express();
 
 app.use(helmet());
 
-//Set up mongoose connection
+//Set up mongoose connections
 var mongoose = require('mongoose');
 // Set up mongoose connection
 var dev_db_url = 'imongodb+srv://RickP:Noodles12@cluster0.ppr6n.mongodb.net/local_library?retryWrites=true&w=majority'
